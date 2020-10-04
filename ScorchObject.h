@@ -13,7 +13,7 @@ namespace Core {
 		virtual void cleanup() = 0;
 		std::vector<SCObject*> getObjectChildren() { return ObjChildren_; }
 		SCObject* getObjectChildAtIndex(int i) { return ObjChildren_[i]; }
-	private:
+	protected:
 		int objectID_;
 		std::vector<SCObject*> ObjChildren_;
 	};

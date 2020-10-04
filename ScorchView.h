@@ -12,7 +12,7 @@ namespace Core {
 		std::vector<SCView*> getViewChildren() { return ViewChildren_; }
 		SCView* getViewChildAtIndex(int i) { return ViewChildren_[i]; }
 		void addViewChild(SCView* newChild) { ViewChildren_.push_back(newChild); }
-	private:
+	protected:
 		std::vector<SCView*> ViewChildren_;
 
 	};

@@ -21,5 +21,8 @@
     <ClInclude Include="ScorchView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ScorchGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

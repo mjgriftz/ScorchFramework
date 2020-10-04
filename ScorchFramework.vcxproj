@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ScorchGame.h" />
     <ClInclude Include="ScorchObject.h" />
     <ClInclude Include="ScorchView.h" />
   </ItemGroup>
